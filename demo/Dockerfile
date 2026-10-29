@@ -1,18 +1,19 @@
-# Stage 1: Build ทั้งหมดจาก Root
+# Stage 1: Build โปรเจกต์
 FROM maven:3.9-eclipse-temurin-17 AS build
 WORKDIR /app
 
-# คัดลอกทุกไฟล์เข้ามา
+# คัดลอกทุกโฟลเดอร์ในโปรเจกต์เข้ามาทั้งหมด (รวมถึง common-entity-demo และ demo)
 COPY . .
 
-# เปลี่ยนคำสั่งรันเป็น mvn clean install เพื่อให้ common-entity-demo ถูกติดตั้งลง Local Repo ของ Container ก่อน แล้ว demo ถึงจะเรียกใช้งานได้
-RUN mvn clean install -DskipTests
+# สั่งเข้าไปบิลด์เฉพาะในโฟลเดอร์ demo โดยตรง (ข้ามการใช้ Root POM)
+WORKDIR /app/demo
+RUN mvn clean package -DskipTests
 
-# Stage 2: Run Application เฉพาะโมดูล demo
+# Stage 2: Run Application
 FROM eclipse-temurin:17-jre
 WORKDIR /app
 
-# ดึงไฟล์ .jar ของ demo มาใช้งาน
+# ดึงไฟล์ jar จากโฟลเดอร์ demo/target มาใช้งาน
 COPY --from=build /app/demo/target/*.jar app.jar
 
 EXPOSE 8080
