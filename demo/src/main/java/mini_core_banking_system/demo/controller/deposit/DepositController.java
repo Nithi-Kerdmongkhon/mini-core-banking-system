@@ -3,6 +3,7 @@ package mini_core_banking_system.demo.controller.deposit;
 import demo.common_entity_demo.dto.ResponseBodyDTO;
 import demo.common_entity_demo.enumurations.CommonStatus;
 import lombok.RequiredArgsConstructor;
+import mini_core_banking_system.demo.common.BusinessExceptionService;
 import mini_core_banking_system.demo.dto.deposit.RequestDepositDTO;
 import mini_core_banking_system.demo.implement.customer.CustomerServiceImpl;
 import mini_core_banking_system.demo.interfaces.deposit.DepositService;
@@ -23,8 +24,11 @@ public class DepositController {
         try {
             ResponseBodyDTO res = depositService.handle(accountNo,json);
             return res;
+        } catch (BusinessExceptionService e) {
+            logger.warn("Business error from deposit service : {}", e.getMessage());
+            return new ResponseBodyDTO(e.getStatus());
         } catch (Exception e) {
-            logger.error("Error from view-customer service : {}", e.getMessage(), e);
+            logger.error("Error from deposit service : {}", e.getMessage(), e);
             return new ResponseBodyDTO(CommonStatus.ERROR_EXCEPTION_OCCURRED);
         }
     }

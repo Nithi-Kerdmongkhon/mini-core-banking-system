@@ -39,9 +39,7 @@ public class DepositServiceImpl extends CommonService implements DepositService 
 
 
 
-
-
-        return null;
+        return new ResponseBodyDTO(referenceNo,CommonStatus.SUCCESS);
     }
     public Account validateAccount(String accountNo){
         if (accountNo == null || accountNo.isBlank()){

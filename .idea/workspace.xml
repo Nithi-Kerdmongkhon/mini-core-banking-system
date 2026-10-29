@@ -4,41 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="081fc4da-1021-4028-aae0-ddec41c579cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/common-entity-demo/src/main/java/demo/common_entity_demo/dto/ResponseBodyDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-entity-demo/src/main/java/demo/common_entity_demo/dto/dtoRepo/CustomerRepoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-entity-demo/src/main/java/demo/common_entity_demo/entity/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-entity-demo/src/main/java/demo/common_entity_demo/entity/AccountSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-entity-demo/src/main/java/demo/common_entity_demo/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-entity-demo/src/main/java/demo/common_entity_demo/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-entity-demo/src/main/java/demo/common_entity_demo/entity/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-entity-demo/src/main/java/demo/common_entity_demo/enumurations/AccountMapTypeToCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-entity-demo/src/main/java/demo/common_entity_demo/enumurations/AccountType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-entity-demo/src/main/java/demo/common_entity_demo/enumurations/CommonStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-entity-demo/src/main/java/demo/common_entity_demo/enumurations/CommonStatusAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-entity-demo/src/main/java/demo/common_entity_demo/repo/AccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-entity-demo/src/main/java/demo/common_entity_demo/repo/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/mini_core_banking_system/demo/common/BusinessExceptionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/mini_core_banking_system/demo/common/CommonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/mini_core_banking_system/demo/controller/accout/AccountController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/mini_core_banking_system/demo/controller/customer/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/mini_core_banking_system/demo/controller/deposit/DepositController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/mini_core_banking_system/demo/dto/account/RequestCreateAccountDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/mini_core_banking_system/demo/dto/account/ResponseViewAccountDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/mini_core_banking_system/demo/dto/customer/RequestAddCustomerDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/mini_core_banking_system/demo/dto/customer/ResponseViewCustomerDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/mini_core_banking_system/demo/dto/deposit/RequestDepositDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/mini_core_banking_system/demo/implement/account/AccountNumberServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/mini_core_banking_system/demo/implement/account/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/mini_core_banking_system/demo/implement/account/ViewAccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/mini_core_banking_system/demo/implement/customer/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/mini_core_banking_system/demo/implement/customer/ViewCustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/mini_core_banking_system/demo/implement/deposit/DepositServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/mini_core_banking_system/demo/interfaces/account/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/mini_core_banking_system/demo/interfaces/account/ViewAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/mini_core_banking_system/demo/interfaces/customer/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/mini_core_banking_system/demo/interfaces/customer/ViewCustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/mini_core_banking_system/demo/interfaces/deposit/DepositService.java" afterDir="false" />
+    <list default="true" id="081fc4da-1021-4028-aae0-ddec41c579cd" name="Changes" comment="Test Deploy">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,30 +35,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.commom-entity-demo [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.commom-entity-demo [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.common-entity-demo [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.common-entity-demo [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.common-entity-demo.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.damo.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.demo [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.demo [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.demo [site].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/1.0.0-install&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/digioth/Desktop/mini-core-banking-system/common-entity-demo/src/main/java/demo/common_entity_demo/dto&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DemoApplication.executor": "Run",
+    "Maven.commom-entity-demo [clean].executor": "Run",
+    "Maven.commom-entity-demo [install].executor": "Run",
+    "Maven.common-entity-demo [clean].executor": "Run",
+    "Maven.common-entity-demo [install].executor": "Run",
+    "Maven.common-entity-demo.executor": "Run",
+    "Maven.damo.executor": "Run",
+    "Maven.demo [clean].executor": "Run",
+    "Maven.demo [install].executor": "Run",
+    "Maven.demo [package].executor": "Run",
+    "Maven.demo [site].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "releaes/1.0.0",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/digioth/Desktop/mini-core-banking-system/common-entity-demo/src/main/java/demo/common_entity_demo/dto"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/common-entity-demo/src/main/java/demo/common_entity_demo/dto" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.damo">
+  <component name="RunManager" selected="Application.DemoApplication">
+    <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mini_core_banking_system.demo.DemoApplication" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mini_core_banking_system.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="common-entity-demo" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -156,9 +139,15 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.DemoApplication" />
       <item itemvalue="Maven.damo" />
       <item itemvalue="Maven.common-entity-demo" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DemoApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -169,6 +158,27 @@
       <option name="presentableId" value="Default" />
       <updated>1791878911606</updated>
     </task>
+    <task id="LOCAL-00001" summary="Test Deploy">
+      <option name="closed" value="true" />
+      <created>1793264284090</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1793264284090</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Test Deploy">
+      <option name="closed" value="true" />
+      <created>1793265325333</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1793265325333</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test Deploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Deploy" />
   </component>
 </project>
