@@ -7,6 +7,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
 
 @Entity
 @Table(name="LEDGER")
@@ -26,4 +27,6 @@ public class Ledger extends BaseEntity{
     private BigDecimal amount;
     private BigDecimal balanceBefore;
     private BigDecimal balanceAfter;
+    private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
 }

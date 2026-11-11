@@ -17,10 +17,12 @@ public enum CommonStatus {
     AMOUNT_IS_NULL("0010","Amount is null","จำนวนเงินเป็นค่าว่าง"),
     AMOUNT_MUST_BE_GREATER_THAN_ZERO("0011","Amount must be greater than zero","จำนวนเงินต้องมากกว่าศูนย์"),
     AMOUNT_INVALID_PRECISION("0012","Amount invalid precision","จำนวนทศนิยมไม่ถูกต้อง"),
+    INSUFFICIENT_BALANCE("0013","Insufficient_Balance","ยอดเงินไม่เพียงพอ"),
 
 
     //Transaction
     DUPLICATE_TRANSACTION("1000","Duplicate Transaction","รายการซ้ำ"),
+    DAILY_LIMIT_EXCEEDED("1001","Daily Limit Exceeded","เกินขีดจำกัดรายวัน"),
 
     ERROR_EXCEPTION_OCCURRED("9999", "system error occurred", "ระบบเกิดเหตุขัดข้อง กรุณาลองทำรายการใหม่ภายหลัง");
 

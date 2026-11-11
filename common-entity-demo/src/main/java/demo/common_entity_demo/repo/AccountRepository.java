@@ -1,6 +1,8 @@
 package demo.common_entity_demo.repo;
 
 import demo.common_entity_demo.entity.Account;
+import demo.common_entity_demo.enumurations.CommonStatus;
+import demo.common_entity_demo.enumurations.CommonStatusAccount;
 import jakarta.persistence.LockModeType;
 import jakarta.persistence.QueryHint;
 import org.springframework.data.jpa.repository.JpaRepository;

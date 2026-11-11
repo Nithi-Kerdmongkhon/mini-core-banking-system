@@ -8,6 +8,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
 
 @Entity
 @Table(name="TRANSACTIONS")
@@ -27,4 +28,6 @@ public class Transaction extends BaseEntity{
 
     @Enumerated(EnumType.STRING)
     private TransactionStatus status;
+    private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
 }

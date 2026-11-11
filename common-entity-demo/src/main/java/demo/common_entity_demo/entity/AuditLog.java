@@ -9,6 +9,8 @@ import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.time.LocalDateTime;
+
 @Entity
 @Table(name="AUDIT_LOG")
 @Setter
@@ -23,4 +25,6 @@ public class AuditLog extends BaseEntity{
     private String entityId;
     private String actor;
     private String detail;
+    private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
 }
